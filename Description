@@ -2,13 +2,11 @@ Package: cleanr
 Type: Package
 Title: Simple Data Cleaning Tools
 Version: 0.1.0
-Author: Your Name
-Maintainer: Your Name <you@example.com>
+Author: Luis Breitfeld
+Maintainer: Luis Breitfeld <deine@email.com>
 Description: Provides simple data cleaning utilities, including NA row removal and column name standardization.
 License: MIT
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
-Imports:
-    stats
+RoxygenNote: 7.3.2

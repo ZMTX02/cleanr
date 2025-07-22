@@ -1,7 +1,7 @@
 ---
-title: "Exercise #X"
+title: "Exercise 6"
 subtitle: "Fortgeschrittene Statistische Software für NF"
-author: "Name (Martrikelnummer), Name (Martrikelnummer), ..."
+author: "Luis Breitfeld (12576008)"
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -75,11 +75,13 @@ a)  Briefly describe in one - two sentences what your R package does and
     why you decided to choose this functionality. This is just intended
     to give us some context to better understand the package.
 
+Das R-Paket `cleanr` stellt einfache Funktionen zur Datenbereinigung bereit, z. B. zum Entfernen von Zeilen mit fehlenden Werten und zur Vereinheitlichung von Spaltennamen. Diese Funktionalität ist nützlich in der Vorbereitung von Daten für Analysen und Modelle.
+
 b)  To make installation easier, your R package should be in a public
     repository on GitHub. Provide the URL to the GitHub repository
     below:
 
-e.g. `https://github.com/<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>`
+https://github.com/ZMTX02/cleanr
 
 c)  Your R package should be installable via
     `remotes::install_github()`. Before submitting your solution to this
@@ -87,5 +89,5 @@ c)  Your R package should be installable via
     from GitHub. Provide the command below:
 
 ``` r
-remotes::install_github("<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>")
+remotes::install_github("ZMTX02/cleanr")
 ```
